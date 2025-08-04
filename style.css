@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.screen {
+    display: none;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.screen.active {
+    display: block;
+}
+
+/* Home Screen Styles */
+.welcome-card h3 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.welcome-card p {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.test-selection h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.test-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.test-btn {
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.test-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.instructions {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.instructions h4 {
+    margin-bottom: 15px;
+    color: #667eea;
+}
+
+.instructions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.instructions li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.instructions li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    font-weight: bold;
+}
+
+/* Test Screen Styles */
+.test-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.test-info {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e74c3c;
+    padding: 10px 20px;
+    background: #fff3f3;
+    border-radius: 10px;
+    border: 2px solid #e74c3c;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.question-container {
+    margin-bottom: 30px;
+}
+
+.question-number {
+    font-size: 1.1em;
+    color: #667eea;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.question-text {
+    font-size: 1.3em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #333;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+.option:hover {
+    border-color: #667eea;
+    background: #f8f9ff;
+}
+
+.option.selected {
+    border-color: #667eea;
+    background: #667eea;
+    color: white;
+}
+
+.option.correct {
+    border-color: #27ae60;
+    background: #27ae60;
+    color: white;
+}
+
+.option.incorrect {
+    border-color: #e74c3c;
+    background: #e74c3c;
+    color: white;
+}
+
+.option-letter {
+    font-weight: bold;
+    margin-right: 15px;
+    min-width: 25px;
+}
+
+.option-text {
+    font-size: 1.1em;
+}
+
+.feedback {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+.feedback.correct {
+    background: #d5f4e6;
+    color: #27ae60;
+    border: 1px solid #27ae60;
+    display: block;
+}
+
+.feedback.incorrect {
+    background: #ffeaa7;
+    color: #e17055;
+    border: 1px solid #e17055;
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.navigation button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#prev-btn {
+    background: #95a5a6;
+    color: white;
+}
+
+#prev-btn:not(:disabled):hover {
+    background: #7f8c8d;
+}
+
+#prev-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#next-btn, #finish-btn {
+    background: #667eea;
+    color: white;
+}
+
+#next-btn:hover, #finish-btn:hover {
+    background: #5a67d8;
+}
+
+/* Result Screen Styles */
+.result-card {
+    text-align: center;
+}
+
+.result-card h3 {
+    color: #667eea;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.score-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.score-details {
+    text-align: left;
+}
+
+.score-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.result-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.result-actions button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.review-btn {
+    background: #3498db;
+    color: white;
+}
+
+.review-btn:hover {
+    background: #2980b9;
+}
+
+.home-btn {
+    background: #95a5a6;
+    color: white;
+}
+
+.home-btn:hover {
+    background: #7f8c8d;
+}
+
+.retake-btn {
+    background: #667eea;
+    color: white;
+}
+
+.retake-btn:hover {
+    background: #5a67d8;
+}
+
+/* Review Screen Styles */
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.review-header h3 {
+    color: #667eea;
+    font-size: 1.8em;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: #7f8c8d;
+}
+
+.review-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+.review-item.correct {
+    border-left: 4px solid #27ae60;
+}
+
+.review-item.incorrect {
+    border-left: 4px solid #e74c3c;
+}
+
+.review-question {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.review-options {
+    margin-left: 20px;
+}
+
+.review-option {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.review-option.user-answer {
+    background: #3498db;
+    color: white;
+}
+
+.review-option.correct-answer {
+    background: #27ae60;
+    color: white;
+}
+
+.review-option.incorrect-answer {
+    background: #e74c3c;
+    color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    .screen {
+        padding: 20px;
+    }
+    
+    .test-buttons {
+        grid-template-columns: 1fr;
+    }
+    
+    .test-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .timer {
+        font-size: 1.2em;
+    }
+    
+    .score-display {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .score-details {
+        text-align: center;
+    }
+    
+    .result-actions {
+        flex-direction: column;
+    }
+    
+    .navigation {
+        flex-direction: column;
+    }
+    
+    .review-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}

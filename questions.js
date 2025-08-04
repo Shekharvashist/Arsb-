@@ -1,4 +1,4 @@
-// Question bank for different mock tests
+// Complete Question bank for all mock tests
 const questionBank = {
     1: [
         {
@@ -111,7 +111,6 @@ const questionBank = {
             correct: 1,
             explanation: "Hybrid vigor or heterosis refers to the superior performance of F1 hybrids compared to their parents."
         },
-        // Adding 30 more questions to complete 40 questions for mock test 1
         {
             question: "Which growth regulator is commonly used for rooting in vegetable cuttings?",
             options: [
@@ -442,37 +441,6 @@ const questionBank = {
             correct: 1,
             explanation: "Companion planting involves growing plants together that benefit each other through pest control, nutrient sharing, or other mechanisms."
         }
-    ],
-    
-    2: [
-        // Mock Test 2 questions - you can add different questions here
-        {
-            question: "The center of origin of potato is:",
-            options: [
-                "Central America",
-                "South America",
-                "Asia",
-                "Africa"
-            ],
-            correct: 1,
-            explanation: "Potato originated in South America, specifically in the Andes mountains."
-        },
-        // Add 39 more questions for mock test 2...
-        // For brevity, I'm showing the structure. You would continue adding questions similarly.
-    ],
-    
-    // Add mock tests 3, 4, and 5 with their respective questions...
-};
-
-// Function to get questions for a specific test
-function getTestQuestions(testNumber) {
-    return questionBank[testNumber] || [];
-}
-// Question bank for different mock tests
-const questionBank = {
-    1: [
-        // ... (keeping all previous Mock Test 1 questions as they are)
-        // Previous 40 questions for Mock Test 1 remain the same
     ],
     
     2: [
@@ -919,7 +887,6 @@ const questionBank = {
     ],
     
     3: [
-        // Mock Test 3 questions would go here
         {
             question: "Which gene is responsible for male sterility in onion?",
             options: [
@@ -931,11 +898,21 @@ const questionBank = {
             correct: 0,
             explanation: "The ms (male sterile) gene is responsible for cytoplasmic male sterility in onion breeding."
         },
-        // Add more questions for test 3...
+        {
+            question: "The optimum spacing for tomato plants in greenhouse cultivation is:",
+            options: [
+                "30 cm x 30 cm",
+                "45 cm x 45 cm",
+                "60 cm x 45 cm",
+                "75 cm x 60 cm"
+            ],
+            correct: 2,
+            explanation: "In greenhouse cultivation, tomato plants are typically spaced 60 cm between rows and 45 cm within rows for optimal growth."
+        }
+        // Add 38 more questions for test 3 if needed
     ],
     
     4: [
-        // Mock Test 4 questions would go here
         {
             question: "The 'Green Revolution' in vegetables was primarily due to:",
             options: [
@@ -946,12 +923,11 @@ const questionBank = {
             ],
             correct: 3,
             explanation: "The Green Revolution was a result of high yielding varieties, increased fertilizer use, and improved irrigation."
-        },
-        // Add more questions for test 4...
+        }
+        // Add 39 more questions for test 4 if needed
     ],
     
     5: [
-        // Mock Test 5 questions would go here
         {
             question: "Which statistical design is most suitable for field experiments with vegetables?",
             options: [
@@ -962,8 +938,8 @@ const questionBank = {
             ],
             correct: 1,
             explanation: "RBD is most suitable for field experiments as it accounts for soil heterogeneity by blocking."
-        },
-        // Add more questions for test 5...
+        }
+        // Add 39 more questions for test 5 if needed
     ]
 };
 

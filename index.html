@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARSB NET Vegetable Science Mock Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARSB NET Vegetable Science</h1>
+            <h2>Mock Test Practice</h2>
+        </header>
+
+        <div id="home-screen" class="screen active">
+            <div class="welcome-card">
+                <h3>Welcome to Mock Test Practice</h3>
+                <p>Prepare for your ARSB NET exam with our comprehensive question bank</p>
+                <div class="test-selection">
+                    <h4>Select Mock Test:</h4>
+                    <div class="test-buttons">
+                        <button onclick="startTest(1)" class="test-btn">Mock Test 1</button>
+                        <button onclick="startTest(2)" class="test-btn">Mock Test 2</button>
+                        <button onclick="startTest(3)" class="test-btn">Mock Test 3</button>
+                        <button onclick="startTest(4)" class="test-btn">Mock Test 4</button>
+                        <button onclick="startTest(5)" class="test-btn">Mock Test 5</button>
+                    </div>
+                </div>
+                <div class="instructions">
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>Each test contains 40 questions</li>
+                        <li>Real-time feedback for each answer</li>
+                        <li>Timer shows remaining time</li>
+                        <li>Review answers at the end</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-screen" class="screen">
+            <div class="test-header">
+                <div class="test-info">
+                    <span id="test-title">Mock Test 1</span>
+                    <span id="question-counter">1/40</span>
+                </div>
+                <div class="timer">
+                    <span id="timer">60:00</span>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress" class="progress-fill"></div>
+            </div>
+
+            <div class="question-container">
+                <div class="question-number">
+                    Question <span id="q-number">1</span>
+                </div>
+                <div id="question-text" class="question-text">
+                    Loading question...
+                </div>
+                <div class="options-container">
+                    <div class="option" onclick="selectOption(0)">
+                        <span class="option-letter">A.</span>
+                        <span id="option-0" class="option-text">Option A</span>
+                    </div>
+                    <div class="option" onclick="selectOption(1)">
+                        <span class="option-letter">B.</span>
+                        <span id="option-1" class="option-text">Option B</span>
+                    </div>
+                    <div class="option" onclick="selectOption(2)">
+                        <span class="option-letter">C.</span>
+                        <span id="option-2" class="option-text">Option C</span>
+                    </div>
+                    <div class="option" onclick="selectOption(3)">
+                        <span class="option-letter">D.</span>
+                        <span id="option-3" class="option-text">Option D</span>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback"></div>
+            </div>
+
+            <div class="navigation">
+                <button id="prev-btn" onclick="previousQuestion()" disabled>Previous</button>
+                <button id="next-btn" onclick="nextQuestion()">Next</button>
+                <button id="finish-btn" onclick="finishTest()" style="display:none;">Finish Test</button>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <div class="result-card">
+                <h3>Test Completed!</h3>
+                <div class="score-display">
+                    <div class="score-circle">
+                        <span id="score-percentage">0%</span>
+                    </div>
+                    <div class="score-details">
+                        <p>Correct: <span id="correct-count">0</span>/40</p>
+                        <p>Incorrect: <span id="incorrect-count">0</span>/40</p>
+                        <p>Time Taken: <span id="time-taken">00:00</span></p>
+                    </div>
+                </div>
+                <div class="result-actions">
+                    <button onclick="reviewAnswers()" class="review-btn">Review Answers</button>
+                    <button onclick="goHome()" class="home-btn">Back to Home</button>
+                    <button onclick="retakeTest()" class="retake-btn">Retake Test</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="review-screen" class="screen">
+            <div class="review-header">
+                <h3>Answer Review</h3>
+                <button onclick="goHome()" class="back-btn">Back to Home</button>
+            </div>
+            <div id="review-content" class="review-content">
+                <!-- Review content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

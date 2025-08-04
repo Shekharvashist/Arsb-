@@ -1,4 +1,4 @@
-// Complete Question bank for all mock tests
+// Complete Question bank for all 5 mock tests - ARSB NET Vegetable Science
 const questionBank = {
     1: [
         {
@@ -908,8 +908,425 @@ const questionBank = {
             ],
             correct: 2,
             explanation: "In greenhouse cultivation, tomato plants are typically spaced 60 cm between rows and 45 cm within rows for optimal growth."
+        },
+        {
+            question: "Which cultivation practice is used to induce parthenocarpy in cucumber?",
+            options: [
+                "Silver nitrate spray",
+                "Ethrel application",
+                "GA3 treatment",
+                "Cold treatment"
+            ],
+            correct: 0,
+            explanation: "Silver nitrate spray is used to induce parthenocarpy (seedless fruit development) in cucumber."
+        },
+        {
+            question: "The recommended fertilizer dose for cabbage per hectare is:",
+            options: [
+                "100:50:50 kg NPK",
+                "120:60:60 kg NPK",
+                "150:75:75 kg NPK",
+                "200:100:100 kg NPK"
+            ],
+            correct: 1,
+            explanation: "The recommended fertilizer dose for cabbage is typically 120:60:60 kg NPK per hectare."
+        },
+        {
+            question: "Which rootstock is commonly used for grafting tomato?",
+            options: [
+                "Solanum torvum",
+                "Solanum sisymbriifolium",
+                "Solanum lycopersicum",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these Solanum species can be used as rootstocks for tomato grafting depending on the specific requirements."
+        },
+        {
+            question: "The critical temperature for vernalization in cabbage is:",
+            options: [
+                "2-7°C",
+                "8-12°C", 
+                "13-17°C",
+                "18-22°C"
+            ],
+            correct: 0,
+            explanation: "Vernalization in cabbage occurs most effectively at temperatures between 2-7°C."
+        },
+        {
+            question: "Which polyhouse covering material provides maximum light transmission?",
+            options: [
+                "Polyethylene film",
+                "Polycarbonate sheet",
+                "Glass",
+                "Shade net"
+            ],
+            correct: 2,
+            explanation: "Glass provides maximum light transmission (around 90%) among polyhouse covering materials."
+        },
+        {
+            question: "The minimum seed rate for onion nursery per square meter is:",
+            options: [
+                "5-8 grams",
+                "10-12 grams",
+                "15-18 grams",
+                "20-25 grams"
+            ],
+            correct: 1,
+            explanation: "The recommended seed rate for onion nursery is 10-12 grams per square meter."
+        },
+        {
+            question: "Which method is most effective for controlling late blight in potato?",
+            options: [
+                "Crop rotation",
+                "Fungicide application",
+                "Resistant varieties",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "An integrated approach combining all methods is most effective for controlling late blight in potato."
+        },
+        {
+            question: "The recommended plant population for okra per hectare is:",
+            options: [
+                "55,000-60,000",
+                "65,000-70,000",
+                "75,000-80,000",
+                "85,000-90,000"
+            ],
+            correct: 1,
+            explanation: "The optimal plant population for okra is 65,000-70,000 plants per hectare."
+        },
+        {
+            question: "Which growth regulator is used for increasing female flowers in cucumber?",
+            options: [
+                "Ethrel",
+                "Maleic hydrazide",
+                "Silver nitrate",
+                "Both A and C"
+            ],
+            correct: 3,
+            explanation: "Both Ethrel and Silver nitrate can be used to increase female flower production in cucumber."
+        },
+        {
+            question: "The optimum soil moisture content for potato cultivation is:",
+            options: [
+                "60-70% of field capacity",
+                "70-80% of field capacity",
+                "80-90% of field capacity",
+                "90-100% of field capacity"
+            ],
+            correct: 1,
+            explanation: "Potato grows best when soil moisture is maintained at 70-80% of field capacity."
+        },
+        {
+            question: "Which insecticide is most effective against aphids in vegetables?",
+            options: [
+                "Imidacloprid",
+                "Chlorpyrifos",
+                "Cypermethrin",
+                "Endosulfan"
+            ],
+            correct: 0,
+            explanation: "Imidacloprid is highly effective against aphids and other sucking insects in vegetables."
+        },
+        {
+            question: "The gestation period for mushroom production in controlled environment is:",
+            options: [
+                "15-20 days",
+                "25-30 days",
+                "35-40 days",
+                "45-50 days"
+            ],
+            correct: 1,
+            explanation: "Mushroom production typically takes 25-30 days from spawning to harvest in controlled conditions."
+        },
+        {
+            question: "Which technique is used for rapid multiplication of potato seed?",
+            options: [
+                "Tissue culture",
+                "Aeroponic system",
+                "Micro-propagation",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these techniques are used for rapid multiplication of potato seed material."
+        },
+        {
+            question: "The optimum temperature for curd formation in cauliflower is:",
+            options: [
+                "10-15°C",
+                "15-20°C",
+                "20-25°C",
+                "25-30°C"
+            ],
+            correct: 1,
+            explanation: "Cauliflower curd formation occurs best at temperatures between 15-20°C."
+        },
+        {
+            question: "Which preservation method extends the shelf life of tomatoes to 3-4 weeks?",
+            options: [
+                "Waxing",
+                "Controlled atmosphere storage",
+                "Modified atmosphere packaging",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these preservation methods can extend tomato shelf life to 3-4 weeks when properly implemented."
+        },
+        {
+            question: "The recommended depth for planting garlic cloves is:",
+            options: [
+                "2-3 cm",
+                "3-4 cm",
+                "4-5 cm",
+                "5-6 cm"
+            ],
+            correct: 2,
+            explanation: "Garlic cloves should be planted at a depth of 4-5 cm for optimal growth."
+        },
+        {
+            question: "Which bio-agent is effective against root-knot nematode in vegetables?",
+            options: [
+                "Trichoderma viride",
+                "Paecilomyces lilacinus",
+                "Pseudomonas fluorescens",
+                "Bacillus subtilis"
+            ],
+            correct: 1,
+            explanation: "Paecilomyces lilacinus is specifically effective against root-knot nematodes in vegetables."
+        },
+        {
+            question: "The critical photoperiod for bulb formation in short-day onion varieties is:",
+            options: [
+                "10-12 hours",
+                "12-13 hours",
+                "13-14 hours",
+                "14-16 hours"
+            ],
+            correct: 1,
+            explanation: "Short-day onion varieties require 12-13 hours of daylight for bulb formation."
+        },
+        {
+            question: "Which mulching material is most effective for soil temperature control?",
+            options: [
+                "Black polyethylene",
+                "White polyethylene",
+                "Silver polyethylene",
+                "Organic mulch"
+            ],
+            correct: 2,
+            explanation: "Silver polyethylene mulch provides the best soil temperature control by reflecting heat."
+        },
+        {
+            question: "The recommended spacing for bitter gourd in commercial cultivation is:",
+            options: [
+                "1.5m x 0.5m",
+                "2.0m x 0.75m",
+                "2.5m x 1.0m",
+                "3.0m x 1.5m"
+            ],
+            correct: 2,
+            explanation: "Bitter gourd is typically spaced 2.5m x 1.0m in commercial cultivation for optimal yield."
+        },
+        {
+            question: "Which growth stage of tomato is most sensitive to water stress?",
+            options: [
+                "Vegetative growth",
+                "Flowering",
+                "Fruit setting",
+                "Fruit development"
+            ],
+            correct: 2,
+            explanation: "The fruit setting stage is most sensitive to water stress in tomato plants."
+        },
+        {
+            question: "The optimum relative humidity for storing onion bulbs is:",
+            options: [
+                "60-65%",
+                "65-70%",
+                "70-75%",
+                "75-80%"
+            ],
+            correct: 1,
+            explanation: "Onion bulbs are best stored at 65-70% relative humidity to prevent sprouting and decay."
+        },
+        {
+            question: "Which training system is commonly used for indeterminate tomatoes?",
+            options: [
+                "Single stem",
+                "Double stem",
+                "Multiple stem",
+                "Bush system"
+            ],
+            correct: 0,
+            explanation: "Single stem training system is most commonly used for indeterminate tomato varieties."
+        },
+        {
+            question: "The recommended application rate of vermicompost in vegetable crops is:",
+            options: [
+                "2-3 t/ha",
+                "4-5 t/ha",
+                "6-8 t/ha",
+                "10-12 t/ha"
+            ],
+            correct: 2,
+            explanation: "Vermicompost is typically applied at 6-8 tonnes per hectare for vegetable crops."
+        },
+        {
+            question: "Which factor is most critical for successful grafting in vegetables?",
+            options: [
+                "Temperature",
+                "Humidity",
+                "Light intensity",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All environmental factors - temperature, humidity, and light intensity - are critical for successful grafting."
+        },
+        {
+            question: "The shelf life of leafy vegetables can be extended to 10-15 days by:",
+            options: [
+                "Pre-cooling",
+                "Hydro-cooling",
+                "Vacuum cooling",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All cooling methods help extend the shelf life of leafy vegetables significantly."
+        },
+        {
+            question: "Which nutrient deficiency causes tipburn in lettuce?",
+            options: [
+                "Calcium",
+                "Magnesium",
+                "Boron",
+                "Iron"
+            ],
+            correct: 0,
+            explanation: "Calcium deficiency causes tipburn (browning of leaf edges) in lettuce."
+        },
+        {
+            question: "The optimum plant density for capsicum in greenhouse is:",
+            options: [
+                "20,000-25,000 plants/ha",
+                "25,000-30,000 plants/ha",
+                "30,000-35,000 plants/ha",
+                "35,000-40,000 plants/ha"
+            ],
+            correct: 2,
+            explanation: "Capsicum in greenhouse is typically grown at 30,000-35,000 plants per hectare."
+        },
+        {
+            question: "Which bio-pesticide is effective against caterpillars in cabbage?",
+            options: [
+                "Bt (Bacillus thuringiensis)",
+                "NPV (Nuclear Polyhedrosis Virus)",
+                "Neem oil",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these bio-pesticides are effective against various caterpillars that attack cabbage."
+        },
+        {
+            question: "The recommended fertilizer application method for drip irrigation is:",
+            options: [
+                "Broadcasting",
+                "Band placement",
+                "Fertigation",
+                "Foliar application"
+            ],
+            correct: 2,
+            explanation: "Fertigation (fertilizer application through irrigation water) is most suitable for drip irrigation systems."
+        },
+        {
+            question: "Which post-harvest treatment reduces weight loss in vegetables?",
+            options: [
+                "Waxing",
+                "Packaging",
+                "Cold storage",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these treatments help reduce weight loss in vegetables during storage and transportation."
+        },
+        {
+            question: "The critical growth stage for nitrogen application in cole crops is:",
+            options: [
+                "Germination",
+                "Vegetative growth",
+                "Head formation",
+                "Maturity"
+            ],
+            correct: 1,
+            explanation: "The vegetative growth stage is most critical for nitrogen application in cole crops."
+        },
+        {
+            question: "Which factor determines the storage life of root vegetables?",
+            options: [
+                "Harvest maturity",
+                "Storage temperature",
+                "Relative humidity",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All factors - harvest maturity, temperature, and humidity - determine the storage life of root vegetables."
+        },
+        {
+            question: "The optimum CO2 concentration for greenhouse vegetable production is:",
+            options: [
+                "300-400 ppm",
+                "800-1000 ppm",
+                "1200-1500 ppm",
+                "1800-2000 ppm"
+            ],
+            correct: 1,
+            explanation: "The optimum CO2 concentration for greenhouse vegetables is 800-1000 ppm for enhanced photosynthesis."
+        },
+        {
+            question: "Which growth regulator promotes rooting in vegetable cuttings most effectively?",
+            options: [
+                "IBA (Indole Butyric Acid)",
+                "NAA (Naphthalene Acetic Acid)",
+                "2,4-D",
+                "Both A and B"
+            ],
+            correct: 3,
+            explanation: "Both IBA and NAA are equally effective for promoting rooting in vegetable cuttings."
+        },
+        {
+            question: "The recommended planting time for winter vegetables in North India is:",
+            options: [
+                "September-October",
+                "October-November",
+                "November-December",
+                "December-January"
+            ],
+            correct: 1,
+            explanation: "October-November is the optimal planting time for winter vegetables in North India."
+        },
+        {
+            question: "Which packaging material is best for extending the shelf life of fresh vegetables?",
+            options: [
+                "Perforated polythene",
+                "Non-perforated polythene",
+                "Paper bags",
+                "Cloth bags"
+            ],
+            correct: 0,
+            explanation: "Perforated polythene allows gas exchange while maintaining humidity, extending vegetable shelf life."
+        },
+        {
+            question: "The economic threshold level for whitefly in tomato is:",
+            options: [
+                "1-2 adults per plant",
+                "3-5 adults per plant",
+                "8-10 adults per plant",
+                "15-20 adults per plant"
+            ],
+            correct: 2,
+            explanation: "The economic threshold for whitefly in tomato is 8-10 adults per plant before treatment is required."
         }
-        // Add 38 more questions for test 3 if needed
     ],
     
     4: [
@@ -923,8 +1340,436 @@ const questionBank = {
             ],
             correct: 3,
             explanation: "The Green Revolution was a result of high yielding varieties, increased fertilizer use, and improved irrigation."
+        },
+        {
+            question: "Which technology has revolutionized seed production in vegetables?",
+            options: [
+                "Hybrid seed technology",
+                "Genetic engineering",
+                "Tissue culture",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these technologies have significantly contributed to revolutionizing vegetable seed production."
+        },
+        {
+            question: "The concept of precision agriculture in vegetables includes:",
+            options: [
+                "GPS-guided machinery",
+                "Variable rate application",
+                "Remote sensing",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Precision agriculture encompasses all these technologies for optimized vegetable production."
+        },
+        {
+            question: "Which molecular marker is most commonly used in vegetable breeding?",
+            options: [
+                "RFLP",
+                "RAPD",
+                "SSR",
+                "SNP"
+            ],
+            correct: 3,
+            explanation: "SNP (Single Nucleotide Polymorphism) markers are currently most widely used in modern vegetable breeding."
+        },
+        {
+            question: "The term 'genomics' in vegetable crops refers to:",
+            options: [
+                "Study of genes",
+                "Study of entire genome",
+                "Gene expression analysis",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Genomics encompasses the study of entire genomes, individual genes, and their expression patterns."
+        },
+        {
+            question: "Which breeding technique produces genetically uniform vegetables?",
+            options: [
+                "Open pollination",
+                "Hybrid breeding",
+                "Clonal propagation",
+                "Both B and C"
+            ],
+            correct: 3,
+            explanation: "Both hybrid breeding and clonal propagation can produce genetically uniform vegetables."
+        },
+        {
+            question: "The primary advantage of F1 hybrid vegetables is:",
+            options: [
+                "Genetic uniformity",
+                "Hybrid vigor",
+                "Disease resistance",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "F1 hybrids offer genetic uniformity, hybrid vigor, and often enhanced disease resistance."
+        },
+        {
+            question: "Which biotechnology tool is used for developing virus-resistant vegetables?",
+            options: [
+                "Gene silencing",
+                "Transgenic technology",
+                "Marker-assisted selection",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these biotechnology tools can be used to develop virus-resistant vegetable varieties."
+        },
+        {
+            question: "The main objective of plant genetic resource conservation is:",
+            options: [
+                "Preserving genetic diversity",
+                "Future breeding programs",
+                "Climate change adaptation",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Genetic resource conservation serves all these important objectives for sustainable agriculture."
+        },
+        {
+            question: "Which vegetable crop has the most advanced genomic resources?",
+            options: [
+                "Tomato",
+                "Potato",
+                "Cabbage",
+                "Onion"
+            ],
+            correct: 0,
+            explanation: "Tomato has the most comprehensive genomic resources among vegetable crops with complete genome sequence."
+        },
+        {
+            question: "The technique of 'doubled haploid' production is used for:",
+            options: [
+                "Rapid inbreeding",
+                "Creating genetic variation",
+                "Hybrid seed production",
+                "All of the above"
+            ],
+            correct: 0,
+            explanation: "Doubled haploid technique is primarily used for rapid development of homozygous inbred lines."
+        },
+        {
+            question: "Which stress tolerance trait is most important for future vegetable breeding?",
+            options: [
+                "Drought tolerance",
+                "Heat tolerance",
+                "Salt tolerance",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All stress tolerance traits are crucial for developing climate-resilient vegetable varieties."
+        },
+        {
+            question: "The 'omics' approach in vegetable research includes:",
+            options: [
+                "Genomics",
+                "Proteomics",
+                "Metabolomics",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "The omics approach encompasses genomics, proteomics, metabolomics, and other related fields."
+        },
+        {
+            question: "Which gene editing technology is most promising for vegetable improvement?",
+            options: [
+                "CRISPR-Cas9",
+                "TALENs",
+                "Zinc finger nucleases",
+                "All are equally promising"
+            ],
+            correct: 0,
+            explanation: "CRISPR-Cas9 is currently the most widely adopted gene editing technology for crop improvement."
+        },
+        {
+            question: "The concept of 'speed breeding' in vegetables involves:",
+            options: [
+                "Extended photoperiod",
+                "Controlled temperature",
+                "Optimized nutrition",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Speed breeding uses all these controlled environmental factors to accelerate breeding cycles."
+        },
+        {
+            question: "Which molecular technique is used for genetic fingerprinting of vegetables?",
+            options: [
+                "DNA barcoding",
+                "SSR analysis",
+                "SNP genotyping",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these molecular techniques can be used for genetic fingerprinting of vegetable varieties."
+        },
+        {
+            question: "The primary goal of participatory plant breeding is:",
+            options: [
+                "Farmer involvement",
+                "Local adaptation",
+                "Sustainable agriculture",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Participatory breeding aims to achieve all these objectives through farmer participation."
+        },
+        {
+            question: "Which biotic stress causes maximum yield loss in vegetable crops globally?",
+            options: [
+                "Insect pests",
+                "Plant diseases",
+                "Weeds",
+                "Nematodes"
+            ],
+            correct: 1,
+            explanation: "Plant diseases are responsible for the maximum yield losses in vegetable crops worldwide."
+        },
+        {
+            question: "The 'Gene-for-Gene' hypothesis is most applicable to:",
+            options: [
+                "Disease resistance",
+                "Insect resistance",
+                "Abiotic stress tolerance",
+                "Quality traits"
+            ],
+            correct: 0,
+            explanation: "The Gene-for-Gene hypothesis specifically explains the genetic basis of disease resistance."
+        },
+        {
+            question: "Which breeding approach is most suitable for quantitative traits in vegetables?",
+            options: [
+                "Recurrent selection",
+                "Marker-assisted selection",
+                "Genomic selection",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these approaches can be effectively used for improving quantitative traits in vegetables."
+        },
+        {
+            question: "The main challenge in organic vegetable production is:",
+            options: [
+                "Pest management",
+                "Nutrient management",
+                "Weed control",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these aspects pose significant challenges in organic vegetable production systems."
+        },
+        {
+            question: "Which sustainable practice reduces chemical input in vegetable production?",
+            options: [
+                "Integrated Pest Management",
+                "Crop rotation",
+                "Biological control",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these practices contribute to reducing chemical inputs while maintaining productivity."
+        },
+        {
+            question: "The concept of 'vertical farming' in vegetables offers:",
+            options: [
+                "Space efficiency",
+                "Water conservation",
+                "Year-round production",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Vertical farming provides all these advantages for sustainable vegetable production."
+        },
+        {
+            question: "Which digital technology is transforming vegetable agriculture?",
+            options: [
+                "IoT sensors",
+                "Artificial Intelligence",
+                "Blockchain",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these digital technologies are revolutionizing modern vegetable agriculture."
+        },
+        {
+            question: "The 'farm-to-fork' concept in vegetables emphasizes:",
+            options: [
+                "Traceability",
+                "Food safety",
+                "Quality maintenance",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "The farm-to-fork approach focuses on all these aspects for safe, quality vegetables."
+        },
+        {
+            question: "Which post-harvest technology extends vegetable shelf life significantly?",
+            options: [
+                "Edible coatings",
+                "Controlled atmosphere storage",
+                "Irradiation",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these technologies can significantly extend the shelf life of various vegetables."
+        },
+        {
+            question: "The nutritional enhancement of vegetables through breeding is called:",
+            options: [
+                "Biofortification",
+                "Nutraceutical enhancement",
+                "Functional food development",
+                "All are correct terms"
+            ],
+            correct: 0,
+            explanation: "Biofortification is the specific term for nutritional enhancement through plant breeding."
+        },
+        {
+            question: "Which environmental factor most affects vegetable quality during storage?",
+            options: [
+                "Temperature",
+                "Humidity",
+                "Gas composition",
+                "All equally important"
+            ],
+            correct: 3,
+            explanation: "All these environmental factors equally affect vegetable quality during storage."
+        },
+        {
+            question: "The 'circular economy' approach in vegetable production involves:",
+            options: [
+                "Waste recycling",
+                "Resource optimization",
+                "Sustainable practices",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Circular economy encompasses all these approaches for sustainable vegetable production."
+        },
+        {
+            question: "Which breeding objective is prioritized for climate-smart vegetables?",
+            options: [
+                "Stress tolerance",
+                "Resource use efficiency",
+                "Nutritional quality",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Climate-smart vegetable breeding focuses on all these objectives simultaneously."
+        },
+        {
+            question: "The integration of traditional knowledge with modern science in vegetable cultivation is called:",
+            options: [
+                "Indigenous agriculture",
+                "Ethno-agriculture",
+                "Knowledge fusion",
+                "All are appropriate terms"
+            ],
+            correct: 3,
+            explanation: "All these terms appropriately describe the integration of traditional and modern knowledge."
+        },
+        {
+            question: "Which policy intervention promotes sustainable vegetable production?",
+            options: [
+                "Organic certification",
+                "Subsidy for eco-friendly practices",
+                "Research funding",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these policy interventions support and promote sustainable vegetable production."
+        },
+        {
+            question: "The 'One Health' concept relates vegetables to:",
+            options: [
+                "Human health",
+                "Animal health",
+                "Environmental health",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "The One Health concept integrates human, animal, and environmental health aspects."
+        },
+        {
+            question: "Which factor determines the success of vegetable value chains?",
+            options: [
+                "Market linkages",
+                "Post-harvest infrastructure",
+                "Quality standards",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these factors are crucial for successful vegetable value chain development."
+        },
+        {
+            question: "The future of vegetable production will likely emphasize:",
+            options: [
+                "Automation",
+                "Sustainability",
+                "Nutrition",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Future vegetable production will integrate automation, sustainability, and nutritional aspects."
+        },
+        {
+            question: "Which consumer trend is driving vegetable industry innovation?",
+            options: [
+                "Health consciousness",
+                "Convenience foods",
+                "Organic preference",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these consumer trends are driving innovation in the vegetable industry."
+        },
+        {
+            question: "The role of women in vegetable production is significant for:",
+            options: [
+                "Food security",
+                "Nutrition security",
+                "Economic empowerment",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Women's participation in vegetable production contributes to all these important outcomes."
+        },
+        {
+            question: "Which global initiative promotes sustainable vegetable production?",
+            options: [
+                "SDGs (Sustainable Development Goals)",
+                "Climate-smart agriculture",
+                "Zero hunger initiative",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these global initiatives promote sustainable and productive vegetable production systems."
+        },
+        {
+            question: "The 'smart agriculture' approach in vegetables includes:",
+            options: [
+                "Sensor-based monitoring",
+                "Data-driven decisions",
+                "Automated systems",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Smart agriculture integrates all these technological components for optimized vegetable production."
+        },
+        {
+            question: "Which research priority will shape future vegetable production?",
+            options: [
+                "Climate resilience",
+                "Nutritional enhancement",
+                "Sustainable intensification",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these research priorities are essential for shaping the future of vegetable production."
         }
-        // Add 39 more questions for test 4 if needed
     ],
     
     5: [
@@ -938,8 +1783,436 @@ const questionBank = {
             ],
             correct: 1,
             explanation: "RBD is most suitable for field experiments as it accounts for soil heterogeneity by blocking."
+        },
+        {
+            question: "The coefficient of variation (CV) in vegetable field experiments should be less than:",
+            options: [
+                "10%",
+                "15%",
+                "20%",
+                "25%"
+            ],
+            correct: 2,
+            explanation: "A CV of less than 20% is generally acceptable for field experiments with vegetables."
+        },
+        {
+            question: "Which sampling method is most appropriate for disease assessment in vegetables?",
+            options: [
+                "Random sampling",
+                "Systematic sampling",
+                "Stratified sampling",
+                "Cluster sampling"
+            ],
+            correct: 0,
+            explanation: "Random sampling is most appropriate for unbiased disease assessment in vegetable crops."
+        },
+        {
+            question: "The minimum number of replications required for reliable field trials is:",
+            options: [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            correct: 1,
+            explanation: "A minimum of 3 replications is required for statistical analysis and reliable results."
+        },
+        {
+            question: "Which transformation is commonly used for percentage data in vegetable research?",
+            options: [
+                "Log transformation",
+                "Square root transformation",
+                "Arcsine transformation",
+                "Reciprocal transformation"
+            ],
+            correct: 2,
+            explanation: "Arcsine (angular) transformation is commonly used for percentage data to normalize distribution."
+        },
+        {
+            question: "The standard error of mean is calculated as:",
+            options: [
+                "Standard deviation / √n",
+                "Standard deviation × √n",
+                "Variance / n",
+                "Variance × n"
+            ],
+            correct: 0,
+            explanation: "Standard error of mean = Standard deviation divided by square root of sample size."
+        },
+        {
+            question: "Which analysis is used to study the relationship between yield and its components?",
+            options: [
+                "Correlation analysis",
+                "Regression analysis",
+                "Path analysis",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these analyses can be used to study relationships between yield and its components."
+        },
+        {
+            question: "The level of significance commonly used in agricultural research is:",
+            options: [
+                "1%",
+                "5%",
+                "10%",
+                "Both A and B"
+            ],
+            correct: 3,
+            explanation: "Both 1% and 5% levels of significance are commonly used in agricultural research."
+        },
+        {
+            question: "Which test is used for comparing multiple treatment means?",
+            options: [
+                "t-test",
+                "F-test",
+                "Duncan's Multiple Range Test",
+                "Chi-square test"
+            ],
+            correct: 2,
+            explanation: "Duncan's Multiple Range Test (DMRT) is commonly used for comparing multiple treatment means."
+        },
+        {
+            question: "The null hypothesis in ANOVA states that:",
+            options: [
+                "All treatment means are equal",
+                "All treatment means are different",
+                "Some means are equal",
+                "Variance is zero"
+            ],
+            correct: 0,
+            explanation: "The null hypothesis in ANOVA states that all treatment means are statistically equal."
+        },
+        {
+            question: "Which experimental design is suitable for studying two factors simultaneously?",
+            options: [
+                "Factorial design",
+                "Split plot design",
+                "Strip plot design",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these designs can be used to study two or more factors simultaneously."
+        },
+        {
+            question: "The power of a statistical test is related to:",
+            options: [
+                "Type I error",
+                "Type II error",
+                "Sample size",
+                "Both B and C"
+            ],
+            correct: 3,
+            explanation: "Statistical power is related to Type II error (1-β) and is influenced by sample size."
+        },
+        {
+            question: "Which measure of central tendency is most affected by outliers?",
+            options: [
+                "Mean",
+                "Median",
+                "Mode",
+                "Geometric mean"
+            ],
+            correct: 0,
+            explanation: "Mean is most affected by extreme values (outliers) in the dataset."
+        },
+        {
+            question: "The normal distribution is characterized by:",
+            options: [
+                "Symmetrical shape",
+                "Bell-shaped curve",
+                "Mean = Median = Mode",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Normal distribution has all these characteristics: symmetrical, bell-shaped, with equal mean, median, and mode."
+        },
+        {
+            question: "Which statistical software is most commonly used in agricultural research?",
+            options: [
+                "SPSS",
+                "SAS",
+                "R",
+                "All are commonly used"
+            ],
+            correct: 3,
+            explanation: "SPSS, SAS, and R are all widely used statistical software in agricultural research."
+        },
+        {
+            question: "The assumptions of ANOVA include:",
+            options: [
+                "Normality of residuals",
+                "Homogeneity of variance",
+                "Independence of observations",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "ANOVA assumes normality, homogeneity of variance, and independence of observations."
+        },
+        {
+            question: "Which graph is most appropriate for displaying treatment means and their standard errors?",
+            options: [
+                "Bar chart",
+                "Line graph",
+                "Error bar chart",
+                "Pie chart"
+            ],
+            correct: 2,
+            explanation: "Error bar charts effectively display treatment means along with their standard errors or confidence intervals."
+        },
+        {
+            question: "The degrees of freedom for error in CRD with 't' treatments and 'r' replications is:",
+            options: [
+                "t-1",
+                "r-1",
+                "t(r-1)",
+                "tr-1"
+            ],
+            correct: 2,
+            explanation: "In CRD, error degrees of freedom = t(r-1) where t is treatments and r is replications."
+        },
+        {
+            question: "Which correlation coefficient indicates the strongest relationship?",
+            options: [
+                "r = 0.65",
+                "r = -0.85",
+                "r = 0.75",
+                "r = -0.60"
+            ],
+            correct: 1,
+            explanation: "r = -0.85 shows the strongest relationship as the absolute value (0.85) is highest."
+        },
+        {
+            question: "The confidence interval provides information about:",
+            options: [
+                "Parameter estimation",
+                "Precision of estimate",
+                "Range of plausible values",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Confidence intervals provide information about parameter estimation, precision, and plausible value ranges."
+        },
+        {
+            question: "Which factor affects the width of confidence interval?",
+            options: [
+                "Sample size",
+                "Confidence level",
+                "Standard deviation",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these factors affect confidence interval width: larger sample size narrows it, higher confidence level widens it."
+        },
+        {
+            question: "The efficiency of RBD over CRD is measured by:",
+            options: [
+                "Relative efficiency",
+                "Block sum of squares",
+                "Error mean square",
+                "F-ratio"
+            ],
+            correct: 0,
+            explanation: "Relative efficiency measures how much more efficient RBD is compared to CRD."
+        },
+        {
+            question: "Which assumption is violated when heteroscedasticity occurs?",
+            options: [
+                "Normality",
+                "Independence",
+                "Homogeneity of variance",
+                "Linearity"
+            ],
+            correct: 2,
+            explanation: "Heteroscedasticity violates the assumption of homogeneity (equality) of variance."
+        },
+        {
+            question: "The chi-square test is used for:",
+            options: [
+                "Testing independence",
+                "Goodness of fit",
+                "Categorical data analysis",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Chi-square test is used for all these purposes in analyzing categorical data."
+        },
+        {
+            question: "Which measure describes the spread of data around the mean?",
+            options: [
+                "Range",
+                "Standard deviation",
+                "Variance",
+                "Both B and C"
+            ],
+            correct: 3,
+            explanation: "Both standard deviation and variance measure the spread of data around the mean."
+        },
+        {
+            question: "The probability of Type I error is denoted by:",
+            options: [
+                "α (alpha)",
+                "β (beta)",
+                "γ (gamma)",
+                "δ (delta)"
+            ],
+            correct: 0,
+            explanation: "Type I error probability is denoted by α (alpha), commonly set at 0.05 or 0.01."
+        },
+        {
+            question: "Which experimental design provides maximum precision with minimum resources?",
+            options: [
+                "CRD",
+                "RBD", 
+                "LSD",
+                "Factorial design"
+            ],
+            correct: 2,
+            explanation: "Latin Square Design (LSD) provides maximum precision with minimum resources by controlling variation in two directions."
+        },
+        {
+            question: "The regression equation Y = a + bX indicates:",
+            options: [
+                "'a' is the intercept",
+                "'b' is the slope",
+                "Linear relationship between X and Y",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "In the regression equation, 'a' is the Y-intercept, 'b' is the slope, indicating a linear relationship."
+        },
+        {
+            question: "Which transformation is used for count data following Poisson distribution?",
+            options: [
+                "Square root transformation",
+                "Log transformation",
+                "Arcsine transformation",
+                "Reciprocal transformation"
+            ],
+            correct: 0,
+            explanation: "Square root transformation is commonly used for count data following Poisson distribution."
+        },
+        {
+            question: "The studentized range test is used in:",
+            options: [
+                "Tukey's HSD",
+                "Duncan's Multiple Range Test",
+                "Student-Newman-Keuls test",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "The studentized range test is the basis for all these multiple comparison procedures."
+        },
+        {
+            question: "Which measure is most appropriate for skewed distributions?",
+            options: [
+                "Mean",
+                "Median",
+                "Mode",
+                "Standard deviation"
+            ],
+            correct: 1,
+            explanation: "Median is most appropriate for skewed distributions as it's less affected by extreme values."
+        },
+        {
+            question: "The concept of 'pooled error' is used in:",
+            options: [
+                "Multiple comparison tests",
+                "Combined analysis",
+                "Meta-analysis",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Pooled error is used in multiple comparison tests, combined analysis, and meta-analysis."
+        },
+        {
+            question: "Which plot is used to check the assumption of homogeneity of variance?",
+            options: [
+                "Residual plot",
+                "Normal probability plot",
+                "Scatter plot",
+                "Box plot"
+            ],
+            correct: 0,
+            explanation: "Residual plots are used to check homogeneity of variance and other ANOVA assumptions."
+        },
+        {
+            question: "The bootstrap method is used for:",
+            options: [
+                "Estimating standard errors",
+                "Confidence intervals",
+                "Hypothesis testing",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Bootstrap is a resampling method used for all these statistical purposes."
+        },
+        {
+            question: "Which experimental design is most suitable for field trials with fertility gradients?",
+            options: [
+                "CRD",
+                "RBD",
+                "LSD",
+                "Augmented design"
+            ],
+            correct: 1,
+            explanation: "RBD is most suitable for field trials with fertility gradients as blocks can be arranged perpendicular to the gradient."
+        },
+        {
+            question: "The within-subject design is characterized by:",
+            options: [
+                "Same subjects used for all treatments",
+                "Reduced error variance",
+                "Higher statistical power",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Within-subject designs use the same subjects for all treatments, reducing error and increasing power."
+        },
+        {
+            question: "Which analysis is appropriate for time-series data in vegetable experiments?",
+            options: [
+                "Repeated measures ANOVA",
+                "Time series analysis",
+                "Growth curve analysis",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these analytical approaches are appropriate for different aspects of time-series data."
+        },
+        {
+            question: "The concept of 'effect size' refers to:",
+            options: [
+                "Practical significance",
+                "Magnitude of difference",
+                "Clinical importance",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Effect size measures the practical significance and magnitude of treatment differences."
+        },
+        {
+            question: "Which method is used for handling missing data in experiments?",
+            options: [
+                "Mean imputation",
+                "Regression imputation",
+                "Multiple imputation",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "All these methods can be used for handling missing data, with multiple imputation being most robust."
+        },
+        {
+            question: "The Bonferroni correction is used to:",
+            options: [
+                "Control Type I error",
+                "Adjust for multiple comparisons",
+                "Maintain family-wise error rate",
+                "All of the above"
+            ],
+            correct: 3,
+            explanation: "Bonferroni correction controls Type I error when making multiple comparisons by adjusting significance levels."
         }
-        // Add 39 more questions for test 5 if needed
     ]
 };
 
